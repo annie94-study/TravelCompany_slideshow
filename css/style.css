@@ -1,0 +1,212 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: url('../img/back1.jpg')  no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+
+
+
+
+/*header*/
+.navbar-logo img {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+}
+
+.form-inline {
+  display: inline-block;
+ }
+.navbar-header.col {
+	padding: 0 !important;
+}	
+.navbar {
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none !important;	
+	align-items: center;
+}
+
+.navbar ul.nav li {
+	font-size: 96%;
+	font-weight: bold;
+	margin-top: 30px;	
+}
+.navbar ul.nav li.active-button a, .navbar ul.nav li.active-button a:hover, .navbar ul.nav li.active-button a:focus {
+	color: white !important;
+	background: transparent !important;
+}
+.search-box {
+  position: relative;
+  margin-top: 30px;
+}
+.search-box input.form-control, .search-box a {
+	border-radius: 2px !important;
+}
+.search-box .input-group-btn {
+	padding-left: 4px;		
+}
+.search-box input.form-control:focus {
+	border-color: #eb4e01;
+	box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box .btn-primary, .search-box .btn-primary:active {
+	font-weight: bold;
+	background: #f04f01;
+	border-color: #f04f01;
+	text-transform: uppercase;
+	min-width: 50px;
+}
+.search-box:focus {
+	outline: none;
+	background: #eb4e01;
+	box-shadow: 0 0 8px rgba(240,79,1,0.2);
+}
+.search-box a span {
+	transform: scale(0.9);
+	display: inline-block;
+}
+.navbar .nav-item i {
+	font-size: 18px;
+}
+.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+.navbar .nav-item.open > a {
+	background: none !important;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+}
+.navbar .dropdown-menu li a {
+	color: #777;
+	padding: 8px 20px;
+	line-height: normal;
+	font-size: 14px;
+}
+.navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a:active {
+	color: #3d2746;
+}
+.navbar .navbar-form {
+	border: none;
+}
+
+
+
+
+
+
+
+
+/*slideshow container*/
+
+
+#myCarousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  font-weight: bold;
+  width: auto;
+  transition: 0.8s ease;
+  margin-top: 10px;
+}
+
+/* Button */
+.btn .btn-danger.buttontext {
+  color: #f2f2f2;
+  font-size: 4px;
+  padding: 4px 12px;
+  position: absolute;
+  top: 0;
+  margin-top: 5px;
+  border-radius: 22px;
+}
+
+.carousel-indicators {
+  margin-bottom: -50px;
+}
+
+
+
+footer {
+  font-size: 12px;
+  padding: 0px;
+  margin: 40px auto 0px auto;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  padding: 10px 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+
+
+
+@media (min-width: 992px){
+	.form-inline .input-group .form-control {
+		width: 225px;			
+	}
+}
+
+
+@media (max-width: 992px){
+	.form-inline {
+		display: block;
+	}
+
+	.mySlides {
+	  display: none; 
+	  margin-left: 10%;
+	}
+
+	.text {
+		font-size: 18px;
+	  padding: 8px;
+	  width: auto;
+	  text-align: left;
+	  transition: 0.8s ease;
+	  margin-top: 5px;
+	}
+
+	.btn .btn-danger.buttontext {
+  color: #f2f2f2;
+  font-size: 1px;
+  padding: 2px 4px;
+  position: absolute;
+  top: 0;
+  margin-top: 5px;
+  border-radius: 22px;
+	}
+
+	.prev, .next {
+  margin-top: 0px;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 20px;
+  }
+
+}
+
